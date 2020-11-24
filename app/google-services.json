@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "111713400986",
+    "firebase_url": "https://gonuts-9b198.firebaseio.com",
+    "project_id": "gonuts-9b198",
+    "storage_bucket": "gonuts-9b198.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111713400986:android:c6f873e26778c2a49ec723",
+        "android_client_info": {
+          "package_name": "com.example.gonuts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111713400986-ort3ot9u3dj2037ah7h0ev4401ja1utg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdrvKYXFMhnzUFl4CRrrJJWocgBaOff7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111713400986-ort3ot9u3dj2037ah7h0ev4401ja1utg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

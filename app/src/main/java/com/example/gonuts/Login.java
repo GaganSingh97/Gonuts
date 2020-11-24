@@ -16,7 +16,19 @@ public class Login extends AppCompatActivity {
 
     public void Signup(View view)
     {
-        Intent i = new Intent(this,Signup.class);
+        Intent i = new Intent(this,Homepage.class);
+        startActivity(i);
+    }
+
+    public void RestPassword(View view)
+    {
+        Intent i = new Intent(this,ResetPassword.class);
+        startActivity(i);
+
+    }
+
+    public void Home(View view) {
+        Intent i = new Intent(this,Homepage.class);
         startActivity(i);
     }
 }
