@@ -94,7 +94,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginBottom="116dp"
         android:text="Forget password ?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -104,11 +104,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="112dp"
-        android:layout_marginBottom="128dp"
-        android:text="Click here"
+        android:layout_marginBottom="116dp"
         android:onClick="RestPassword"
+        android:text="Click here"
         android:textColor="#3F51B5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView5" />
 </androidx.constraintlayout.widget.ConstraintLayout>

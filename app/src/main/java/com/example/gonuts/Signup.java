@@ -51,8 +51,7 @@ public class Signup extends AppCompatActivity {
         final String phone = etphone.getText().toString();
         final String Name = etName.getText().toString();
 
-                            Toast.makeText(Signup.this, "Registration Successful. You will be redirected to login page now.", Toast.LENGTH_SHORT).show();
-                            // userID = mFirebaseAuth.getCurrentUser().getUid();
+                                                      // userID = mFirebaseAuth.getCurrentUser().getUid();
                             // DocumentReference documentReference = fstore.collection("Users").document(userID);
                             Map<String, Object> user = new HashMap<>();
                             user.put("Email", email);

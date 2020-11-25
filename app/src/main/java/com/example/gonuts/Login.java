@@ -19,7 +19,7 @@ public class Login extends AppCompatActivity {
 
     public void Home(View view)
     {
-        Intent i = new Intent(this,Signup.class);
+        Intent i = new Intent(this,Homepage.class);
         startActivity(i);
     }
 
